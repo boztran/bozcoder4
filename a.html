@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> TRẦN GIA BẢO - BOZTRAN </title>
+    <link rel="shortcut icon"
+    href="https://i.imgur.com/H3lvfYf.jpg"
+    type="image/png">
+    <link rel="stylesheet" href="./a.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body class="Border" onLoad="onCreate()">
+    <div class="BlurWebs">
+        <div class="Topnav">
+            <a class="Active"> HOME </a>
+            <a style="color:red;">
+                <span id="fps"> 60 </span> FPS </a>
+        </div>
+        <br>
+        <div class="wrapper">
+            <div class="top-bar">
+                <i class="material-icons">expand_more</i>
+                <span> TRẦN GIA BẢO </span>
+                <i class="material-icons">more_horiz</i>
+            </div>
+
+            <div class="img-area">
+                <img src="" alt="">
+
+            </div>
+
+            <div class="song-details">
+                <p class="name"></p>
+                <p class="artist"></p>
+            </div>
+
+            <div class="progress-area">
+                <div class="progress-bar">
+                    <audio src="" id="main-audio"></audio>
+                </div>
+                <div class="song-timer">
+                    <span class="current-time">
+                    0:00
+                </span>
+                    <span class="max-duration">
+                    0:00
+                </span>
+                </div>
+            </div>
+
+            <div class="controls">
+                <i id="repeat-plist" class="material-icons" title="Playlist looped">repeat</i>
+                <i id="prev" class="material-icons">skip_previous</i>
+                <div class="play-pause">
+                    <i class="material-icons play">play_arrow</i>
+                </div>
+                <i id="next" class="material-icons">skip_next</i>
+                <i id="more-music" class="material-icons">queue_music</i>
+            </div>
+
+            <div class="music-list">
+                <div class="header">
+                    <div class="row">
+                        <i class="list material-icons">queue_music</i>
+                        <span>Music List</span>
+                    </div>
+                    <i id="close" class="material-icons">close</i>
+                </div>
+                <ul>
+                    <p class="rainbow" class="copyright">Created by
+                        <a style="text-decoration: none;" class="copyright" href="https://www.facebook.com/boztran">
+                            <font class="rainbow" color="white"> BozTran </font>
+                        </a>
+                        <br> <strong> All rights reserved - © 2023 </strong></p>
+                    </footer>
+            </div>
+            <div id="Toast"> Welcome to my website </div>
+            <script src="./JS/music-list.js">
+            </script>
+            <script src="./JS/a.js"></script>
+
+</body>
+
+</html>
